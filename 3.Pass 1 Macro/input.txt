@@ -1,0 +1,7 @@
+MACRO 
+M1 &X,&Y,&A=AREG
+MOVER &A,&X 
+ADD &A,&Y
+MOVER &X,&Y 
+ADD &A,&Y
+MEND 
